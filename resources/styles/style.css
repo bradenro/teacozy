@@ -41,6 +41,7 @@ a{
     margin-top: 70px;
     width: 1200px;
     border: solid 1px red;
+    flex-direction: column;
   }
 
   .top{
@@ -50,6 +51,7 @@ a{
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
     text-align: center;
     justify-content: center;
+    border: solid 1px red;
 
   }
 .top, h2, h4{
@@ -60,9 +62,44 @@ a{
 }
 
   .middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 700px;
+    border: solid 1px red;
   }
 
+.middle img{
+  width: 300px;
+  height: 200px;
+
+}
+
+.img_mid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  border: solid 1px red;
+}
+.mid_1{
+    padding-right: 50px;
+}
+
+.mid_3{
+  padding-left: 50px;
+}
+
+.mid_4{
+  padding-right: 25px;
+}
+
+.mid_5{
+  padding-left: 25px;
+}
   .bottom{
     height: 500px;
+    border: solid 1px red;
   }
